@@ -1,0 +1,275 @@
+.report {
+    color: #000;
+    overflow: auto;
+}
+
+.report .titlepage {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.report .titlepage .text {
+    font-size: 0.8rem;
+    color: #b1b1b0;
+}
+
+.report .titlepage .name {
+    margin-top: 40px;
+}
+
+.report .titlepage .engineer {
+    margin-top: 100px;
+}
+
+.report .titlepage img {
+    border: none;
+    padding: 40px;
+}
+
+.report .titlepage img.cover {
+    width: 400px;
+}
+
+.report .page {
+    background-color: #FFF;
+    margin: 16px auto;
+    height: 9.4in;
+    width: 6.5in;
+    padding: 0.8in 1in;
+    overflow: hidden;
+    position: relative;
+    page-break-after: always;
+}
+
+.report .page-inner {
+    position: absolute;
+    width: 6.5in;
+    visibility: hidden;
+}
+
+.report p {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.report h1, .report h2 {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.report td, .report th {
+    padding: 2px 8px;
+}
+
+.report tr:nth-child(2n) {
+    background-color: #EEE;
+}
+
+.page-header {
+    border-bottom: 2px solid #000;
+    position: absolute;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    left: 100px;
+    right: 100px;
+    top: 25px;
+}
+
+.page-date {
+    position: absolute;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    right: 100px;
+    top: 25px;
+}
+
+.page-footer {
+    border-top: 1px solid #000;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 2px;
+    left: 100px;
+    right: 100px;
+    bottom: 25px;
+}
+
+.page-number {
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 2px;
+    right: 100px;
+    bottom: 25px;
+}
+
+.table-caption {
+    margin-bottom: 8px;
+    margin-left: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tab-content {
+    position: inherit;
+}
+
+.tab-content.hidden {
+    overflow: visible !important;
+    position: inherit !important;
+}
+
+.main-container {
+    width: 6.5in;
+    margin: 0 auto;
+}
+
+.button-save, .button-print, .back-icon, .tab-header {
+    display: none;
+}
+
+.tab-content.hidden {
+    display: block !important;
+}
+
+.main-container .tab {
+    border: none;
+    overflow: visible;
+}
+
+.main-container .tab .tab-body {
+    bottom: inherit;
+    border: none;
+    padding: 0;
+}
+
+.main-container .tab, .tab-content {
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    overflow: visible;
+    height: 100%;
+}
+
+.print-header {
+    margin-top: 8px;
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+.print-header, .page-break {
+    display: block;
+    float: none;
+}
+
+.page-break {
+    page-break-before: always;
+    position: inherit;
+    break-before: always;
+    color: #AAA;
+    margin: 0;
+}
+
+.page-break .control .text {
+    display: block;
+}
+
+.input>.text {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.input input {
+    padding: 4px 8px;
+}
+
+.input-combobox .value {
+    padding: 4px 8px;
+}
+
+.prevschool_container {
+    margin-bottom: 0;
+}
+
+.content>.container {
+    margin-top: 0;
+    padding: 0;
+}
+
+.button-save, .button-print, .button-submit, .back-icon, .tab-header {
+    display: none;
+}
+
+body, html, .tab {
+    height: 100%;
+    -webkit-print-color-adjust: exact;
+}
+.main-container {
+    margin: 0 auto;
+}
+.tab-content.hidden {
+    display: block !important;
+}
+.main-container .tab {
+    border: none;
+    overflow: visible;
+    margin-top: 0;
+}
+.main-container .tab .tab-body {
+    bottom: inherit;
+    border: none;
+    padding: 0;
+}
+.main-container .tab .tab-header {
+    height: 0;
+}
+.main-container .tab, .tab-content {
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    overflow: visible;
+    height: 100%;
+}
+.print-header {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.print-header, .page-break {
+    display: block;
+    float: none;
+}
+.page-break {
+    height: 0;
+}
+.page-break {
+    page-break-before: always;
+    position: inherit;
+    break-before: always;
+    color: #AAA;
+    margin: 0;
+}
+.page-break .control .text {
+    display: block;
+}
+.checklist>.control.checked {
+    background-color: #048c63;
+    -webkit-print-color-adjust: exact;
+}
+th {
+    background-color: #eff5ec;
+    font-weight: normal;
+    font-size: 12px;
+}
+.download-container {
+    display: none;
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 0.5in;
+    }
+}

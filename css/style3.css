@@ -1,0 +1,136 @@
+
+.btn2 {
+  border-radius: 2px;
+  padding: 8px 12px;
+  color: #d18b49;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+.card2 {
+  background: #fff;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 48px;
+  text-align: center;
+  /* width: 500px;
+  height: 500px; */
+  width: 900px;
+  height: 400px;
+}
+
+.card2 img {
+  max-width:400px;
+  max-height: 250px;
+}
+.card3 {
+  background: #fff;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 48px;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+}
+.products {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.products2 {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.product {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+.product2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+.product.active2 {
+  opacity: 1;
+  visibility: visible;
+}
+.product2.active2 {
+  opacity: 1;
+  visibility: visible;
+}
+.thumbnail {
+  /* margin: 0 0 48px; */
+}
+.title {
+  /* margin: 0 0 12px; */
+  color: #d18b49;
+  font-size: 24px;
+  transition: 0.5s ease;
+}
+.description {
+  /* margin: 0 0 48px; */
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -12px -12px;
+}
+
+.footer2 a {
+  font-family: "Poppins", sans-serif !important;
+  text-align: center;
+  color: #555;
+  font-weight: 400;
+}
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -12px -12px;
+}
+
+.footer3 a {
+  font-family: "Poppins", sans-serif !important;
+  text-align: center;
+  color: #555;
+  font-weight: 400;
+}
+[ripple] {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+[ripple] .ripple {
+  position: absolute;
+  background: #555;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: scale(0);
+  animation: ripple 2s;
+}
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.2;
+ }
+  100% {
+    transform: scale(20);
+    opacity: 0;
+ }
+}

@@ -1,0 +1,67 @@
+body {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body, input {
+    font: 14px normal, Roboto, -apple-system, BlinkMacSystemFont, "Roboto Regular", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.view-header > .control .calendar-header {
+    font: 14px normal, Roboto, -apple-system, BlinkMacSystemFont, "Roboto Regular", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: 0px;
+}
+
+.tab-header {
+    background-color: #FFF;
+    border-top: 1px solid #DDD;
+    display: flex;
+    padding: 0;
+}
+
+.tab-header > div {
+    display: inline-flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: center;
+}
+
+.tab.bottom .tab-body {
+    bottom: 43px;
+}
+
+.tab.bottom .tab-header {
+    height: 42px;
+}
+
+.tab.bottom .tab-header > div > .control {
+    display: block;
+    text-align: center;
+}
+
+.tab.bottom .tab-header .icon {
+    display: flex;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab.bottom .tab-header .text {
+    display: block;
+    font-size: 12px;
+    margin-top: -2px;
+    line-height: 12px;
+}
+
+.tab.bottom .tab-header i, .tab.bottom .tab-header .text{
+    color: #000 !important;
+}
+
+.tab.bottom .tab-header .selected i, .tab.bottom .tab-header .selected .text{
+    color: #3f6433;
+}
